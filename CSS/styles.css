@@ -219,6 +219,10 @@ ul .blue-button {
   padding-bottom: 1.875rem;
 }
 
+.left-side-gray .blue-button {
+  width: 9rem;
+}
+
 .why {
   display: flex;
   flex-direction: column;
@@ -355,6 +359,10 @@ ul .blue-button {
   max-width: 36%;
   box-shadow: 5px 10px 20px rgb(3, 3, 3, 0.2);
   padding: 1.25rem;
+}
+
+.price-card-large .blue-button{
+  width: 9rem;
 }
 
 .pricing-font-large {
