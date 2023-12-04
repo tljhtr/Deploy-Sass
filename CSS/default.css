@@ -129,6 +129,7 @@ img {
   background-color: var(--nav-button-hover);
   padding: .75rem 1rem;
   border-radius: 1.5rem;
+  text-wrap: nowrap;
 }
 
 .blue-button:hover {
