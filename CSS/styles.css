@@ -221,6 +221,7 @@ ul .blue-button {
 
 .left-side-gray .blue-button {
   width: 9rem;
+  text-wrap: nowrap;
 }
 
 .why {
