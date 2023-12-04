@@ -1,8 +1,8 @@
 .big-background-wrapper {
   background-image: url("/saas-project-assets/headers/header--image.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top 0px right 0px;
+  background-size: cover;
+  background-position: top center;
 }
 
 .nav-bar {
@@ -125,7 +125,7 @@ ul .blue-button {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 27.25rem;
-  min-width: 22.375rem;
+  min-width: 18.75;
   gap: 1.875rem;
   margin-top: -0.625rem;
 }

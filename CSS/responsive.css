@@ -68,8 +68,7 @@
   }
 
   .logo-grid {
-    max-width: 33.125rem;
-    min-width: 20.625rem;
+    max-width: 70%;
     gap: 0.313rem;
   }
 
@@ -213,7 +212,7 @@
   }
 
   .logo-grid {
-    max-width: 330px;
+    max-width: 90%;
     gap: 0.625rem;
   }
 
@@ -370,7 +369,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
   h1 {
     font-size: var(--size-25);
     line-height: 2rem;
@@ -385,44 +384,55 @@
     line-height: 1.1rem;
   }
 
-
-
   .logo-grid {
-    gap: 0px;
-    max-width: 330px;
+    gap: 5px;
+    justify-content: flex-start;
+  }
+
+  .logo-grid .sml {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .logo-grid .b {
+    width: 5rem;
+    height: 5rem;
   }
 
   .google {
-    margin-left: -2%;
-    margin-right: -8%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   .blue-arrow {
-    margin-right: -13%;
-    margin-left: 4%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   .red-dots {
-    margin-right: 4%;
-    margin-left: 11;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
 .paypal {
-  margin-left: 6;
-  margin-right: 3;
+  margin-left: 9%;
+  margin-right: 13%;
 }
 
-.paypal {
-  margin-left: 6;
-  margin-right: 3;
-}
 
 .dubs {
-  margin-right: 15;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.tri {
+  margin-left: 26%;
+    margin-right: 10%;
 }
 
 .cal {
-  margin-right: 6;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
   .blue-big p {
@@ -451,38 +461,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .logo-grid {
-    gap: 0px;
-    width: 320px;
-    padding: 0 15px;
-  }
-
-  .google {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-
-  .blue-arrow {
-    margin-right: 0%;
-    margin-left: 0%;
-  }
-
-  .red-dots {
-    margin-right: 0%;
-    margin-left: 0%;
-  }
-
-.paypal {
-  margin-right: 0%;
-  margin-left: 0%;
-}
-
-.dubs {
-  margin-right: 0%;
-}
-
-.cal {
-  margin-right: 0%;
-}
-}
