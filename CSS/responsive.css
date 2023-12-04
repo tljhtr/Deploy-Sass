@@ -385,12 +385,15 @@
     line-height: 1.1rem;
   }
 
+
+
   .logo-grid {
     gap: 0px;
+    max-width: 330px;
   }
 
   .google {
-    margin-left: -6%;
+    margin-left: -2%;
     margin-right: -8%;
   }
 
@@ -400,8 +403,27 @@
   }
 
   .red-dots {
-    margin-right: -4%;
+    margin-right: 4%;
+    margin-left: 11;
   }
+
+.paypal {
+  margin-left: 6;
+  margin-right: 3;
+}
+
+.paypal {
+  margin-left: 6;
+  margin-right: 3;
+}
+
+.dubs {
+  margin-right: 15;
+}
+
+.cal {
+  margin-right: 6;
+}
 
   .blue-big p {
     margin-bottom: 0;
@@ -427,4 +449,40 @@
     margin-top: 0;
     font-size: var(--size-14);
   }
+}
+
+@media screen and (max-width: 320px) {
+  .logo-grid {
+    gap: 0px;
+    width: 320px;
+    padding: 0 15px;
+  }
+
+  .google {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .blue-arrow {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .red-dots {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+.paypal {
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.dubs {
+  margin-right: 0%;
+}
+
+.cal {
+  margin-right: 0%;
+}
 }
