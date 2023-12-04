@@ -145,6 +145,7 @@ img {
   font-weight: 600;
   color: var(--nav-color-hover);
   margin-bottom: 0;
+  text-wrap: nowrap;
 }
 
 .blue-text:hover {
